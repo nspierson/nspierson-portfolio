@@ -1,4 +1,12 @@
 .banner {
-  width: 100wh;
+  width: 100vw;
   height: 100vh;
+}
+
+.mid-banner {
+  width: 100vw;
+  height: 60vh;
+  margin: 80px 0;
+  background-size: cover;
+  background-attachment: fixed;
 }
