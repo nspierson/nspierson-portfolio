@@ -11,3 +11,10 @@
   opacity: 0;
 }
 
+@media (max-width: 600px) {
+  .work-card {
+    width: 300px;
+    height: 250px;
+  }
+}
+

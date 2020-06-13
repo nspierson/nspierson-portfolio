@@ -32,6 +32,30 @@
   padding-top: 30px;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
+  .banner {
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: 584px 58px;
 
+    h1 {
+      position: absolute;
+      left: 20px;
+      bottom: 14vh;
+      color: white;
+      font-size: 14px;
+      width: 100%;
+    }
+
+      p {
+        position: absolute;
+        left: 20px;
+        bottom: 7vh;
+        color: white;
+        font-size: 10px;
+        width: 50%;
+      }
+    }
 }
