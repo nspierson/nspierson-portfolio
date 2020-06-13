@@ -129,3 +129,20 @@
   }
 }
 
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  width: 50%;
+  border-right: solid 1px grey;
+}
+
+.footer {
+  height: 20vh;
+  width: 100vw;
+  background-color: grey;
+  margin-top: 40px;
+}
+
