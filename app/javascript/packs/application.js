@@ -33,3 +33,17 @@ document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
 });
+
+var myNav = document.querySelector('.navbar-lewagon');
+const bannerEnd = document.querySelector('.banner');
+window.onscroll = function () {
+    "use strict";
+    if (document.body.scrollTop >= bannerEnd.offsetHeight || document.documentElement.scrollTop >= bannerEnd.offsetHeight ) {
+        myNav.classList.add("nav-colored");
+        myNav.classList.remove("nav-transparent");
+    }
+    else {
+        myNav.classList.add("nav-transparent");
+        myNav.classList.remove("nav-colored");
+    }
+};
