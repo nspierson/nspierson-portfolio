@@ -192,12 +192,43 @@ html {
     display: block;
   }
 
+  .description {
+    width: 100%
+  }
+
+  .skills {
+    width: 100%;
+    font-size: 14px;
+  }
+
   .services {
     display: block;
   }
 
+  .one-service {
+    width: 100%;
+    h6 {
+      font-size: 20px;
+      color: white;
+    }
+    p {
+      color: white;
+      font-size: 14px;
+    }
+  }
+
   .contact {
     display: block;
+  }
+
+  .info {
+    width: 100%;
+    border-right: none;
+    border-bottom: solid 1px grey;
+  }
+
+  .contact-form {
+    width: 100%;
   }
 }
 
