@@ -153,7 +153,15 @@ N'hésitez pas à me contacter pour plus d'informations !</p>
       <i class="fab fa-linkedin-in" style="border: 1px black solid; color: black; font-size: 16px; padding: 10px;"></i> Linkedin
     </div>
     <div class="contact-form">
-
+      <div class="form-inputs" style="width: 100%;">
+        <%= simple_form_for @message do |f| %>
+        <%= f.input :name, label: "Nom" %>
+        <%= f.input :email, label: "Email" %>
+        <%= f.input :subject, label: "Objet" %>
+        <%= f.input :content, label: "Votre message" %>
+        <%= f.submit "Envoyer", class: "btn-submit" %>
+        <% end %>
+      </div>
     </div>
   </div>
 </div>

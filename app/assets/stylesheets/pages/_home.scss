@@ -139,6 +139,29 @@
   border-right: solid 1px grey;
 }
 
+.contact-form {
+  width: 40%;
+}
+
+.btn-submit {
+  display: inline-block;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: black;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
 .footer {
   height: 20vh;
   width: 100vw;
