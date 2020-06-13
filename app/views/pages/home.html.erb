@@ -1,42 +1,42 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-  <%= link_to "#", class: "navbar-brand" do %>
-    <%= image_tag "NS-PIERSON.png" %>
-  <% end %>
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon nav-colored">
+  <div class="container">
+    <%= link_to "#", class: "navbar-brand" do %>
+      <%= image_tag "NS-PIERSON.png" %>
+    <% end %>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <%= link_to "Accueil", "#", class: "nav-link" %>
-      </li>
-      <li class="nav-item">
-        <%= link_to "À Propos", "#", class: "nav-link" %>
-      </li>
-      <li class="nav-item">
-        <%= link_to "Réalisations", "#", class: "nav-link" %>
-      </li>
-      <li class="nav-item">
-        <%= link_to "Services", "#", class: "nav-link" %>
-      </li>
-      <li class="nav-item">
-        <%= link_to "Tarifs", "#", class: "nav-link" %>
-      </li>
-      <li class="nav-item">
-        <%= link_to "Contact", "#", class: "nav-link" %>
-      </li>
-    </ul>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <%= link_to "Accueil", "", class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "À Propos", "/#about", class: "nav-link testu", id: "test" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Réalisations", "/#work", class: "nav-link testu" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Services", "/#services", class: "nav-link testu" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Contact", "/#contact", class: "nav-link testu" %>
+        </li>
+      </ul>
+    </div>
   </div>
+
 </div>
 <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('/assets/Nicolas.jpg')">
     <h1><strong>NICOLAS</strong>, DEVELOPPEUR WEB <strong>FREELANCE</strong></h1>
     <p>Je vous accompagne dans tous vos projets de site internet.</p>
 </div>
 <div class="container navbarColorChangePoint">
-    <h1 class="text-center" style="margin: 40px 0; font-size: 36px;"><strong>À PROPOS</strong></h1>
+    <h1 class="text-center" id="about" style="margin: 40px 0; font-size: 36px;"><strong>À PROPOS</strong></h1>
   <div class="about" style="margin-top: 20px;">
     <div class="description">
       <h3 class="text-left">QUI SUIS-JE ?</h3>
@@ -59,7 +59,7 @@ N'hésitez pas à me contacter pour plus d'informations !</p>
     </div>
   </div>
   <div class="work">
-    <h1 class="text-center" style="margin: 40px 0; font-size: 36px;"><strong>RÉALISATIONS</strong></h1>
+    <h1 class="text-center" id="work" style="margin: 40px 0; font-size: 36px;"><strong>RÉALISATIONS</strong></h1>
     <div class="cards">
       <%= link_to "www.uninstant-pour-soi.fr" do %>
         <div class="work-card" style="background-image: url('assets/img site mathilde.png')">
@@ -114,7 +114,7 @@ N'hésitez pas à me contacter pour plus d'informations !</p>
 </div>
 <div class="mid-banner" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/assets/macbook_code.jpeg')">
   <div class="container">
-    <h1 class="text-center" style="margin: 40px 0; font-size: 36px; color: white; margin-bottom: 60px;"><strong>CE QUE JE FAIS</strong></h1>
+    <h1 class="text-center" id="services" style="margin: 40px 0; font-size: 36px; color: white; margin-bottom: 60px;"><strong>CE QUE JE FAIS</strong></h1>
     <div class="services">
       <div class="one-service">
         <p class="text-center"><i class="fas fa-laptop" style="color:white; font-size: 36px;"></i></p>
@@ -135,10 +135,10 @@ N'hésitez pas à me contacter pour plus d'informations !</p>
   </div>
 </div>
 <div class="container">
-  <h1 class="text-center" style="margin: 40px 0; font-size: 36px;"><strong>CONTACTEZ MOI!</strong></h1>
+  <h1 class="text-center" id="contact" style="margin: 40px 0; font-size: 36px;"><strong>CONTACTEZ MOI!</strong></h1>
   <div class="contact">
     <div class="info">
-      <h3 class="text-left">MES INFOS</h3>
+      <h3 class="text-left" style="margin-bottom: 20px;">MES INFOS</h3>
       <i class="fas fa-home" style="border: 1px black solid; color: black; font-size: 14px; padding: 10px;"></i> Rohrbach-lès-Bitche
       <br>
       <br>
@@ -167,7 +167,9 @@ N'hésitez pas à me contacter pour plus d'informations !</p>
   </div>
 </div>
 <div class="footer">
-
+  <div class="footer-text d-flex justify-content-center">
+    <a href="www.nspierson.com" style="color: white; text-decoration: none;">© 2020 - nspierson.com</a>
+  </div>
 </div>
 
 

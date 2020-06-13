@@ -1,6 +1,7 @@
 .navbar-lewagon {
   justify-content: space-between;
   background: transparent;
+  transition: background 1s ease-out;
   position: fixed;
   top: 0;
   z-index: 2000;
@@ -12,7 +13,7 @@
 
 .nav-colored {
   background-color: black;
-  transition: background-color 1.2s ease-out
+  transition: background-color 1s ease-out
 }
 
 .navbar-lewagon .navbar-collapse {
