@@ -239,5 +239,19 @@ html {
   .contact-form {
     width: 100%;
   }
+
+  .footer {
+    height: 12vh;
+    width: 100vw;
+    background-color: black;
+    margin-top: 40px;
+  }
+
+  .footer-text {
+    a {
+      margin-top: 40px;
+    }
+  }
+
 }
 
