@@ -2,6 +2,8 @@ html {
   scroll-behavior: smooth;
 }
 
+// SECTION A PROPOS
+
 .about {
   display: flex;
   justify-content: space-around;
@@ -24,6 +26,8 @@ html {
   width: 50%;
   font-size: 14px;
 }
+
+// SECTION SERVICES
 
 .services {
   display: flex;
@@ -180,6 +184,20 @@ html {
 .footer-text {
   a {
     margin-top: 40px;
+  }
+}
+
+@media (min-width: 600px) {
+  .about {
+    display: block;
+  }
+
+  .services {
+    display: block;
+  }
+
+  .contact {
+    display: block;
   }
 }
 
