@@ -70,13 +70,13 @@
     }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 900px) {
   .banner {
     width: 100vw;
     height: 100vh;
     background-attachment: unset;
     background-size:cover;
-    // background-position: 1150px 60px;
+    background-position: 1150px 60px;
 
     h1 {
       position: absolute;
