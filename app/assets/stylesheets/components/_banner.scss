@@ -38,7 +38,7 @@
     height: 100vh;
     background-attachment: unset;
     background-size:cover;
-    background-position: 1450px 60px;
+    background-position: 1530px 60px;
 
     h1 {
       position: absolute;
@@ -70,13 +70,52 @@
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) and (orientation: landscape) {
+  .banner {
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: 1150px 60px;
+
+    h1 {
+      position: absolute;
+      left: 20px;
+      bottom: 20vh;
+      color: white;
+      font-size: 38px;
+      width: 100%;
+    }
+
+      p {
+        position: absolute;
+        left: 20px;
+        bottom: 10vh;
+        color: white;
+        font-size: 25px;
+        width: 50%;
+      }
+    }
+
+    .mid-banner {
+      width: 100vw;
+      height: 60vh;
+      margin: 80px 0;
+      background-size: cover;
+      background-attachment: unset;
+      padding-top: 30px;
+      background-position: 0px 0px;
+    }
+
+}
+
+@media (max-width: 768px) {
   .banner {
     width: 100vw;
     height: 100vh;
     background-attachment: unset;
     background-size:cover;
-    background-position: 800px 60px;
+    background-position: 1150px 60px;
 
     h1 {
       position: absolute;
