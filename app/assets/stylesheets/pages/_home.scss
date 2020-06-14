@@ -31,6 +31,12 @@ html, body {
   font-size: 14px;
 }
 
+.skills-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 // SECTION SERVICES
 
 .services {
@@ -153,6 +159,11 @@ html, body {
 .info {
   width: 50%;
   border-right: solid 1px grey;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
 }
 
 .contact-form {

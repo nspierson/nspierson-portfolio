@@ -1,6 +1,6 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon nav-colored">
   <!-- <div class="container"> -->
-    <%= link_to "#", class: "navbar-brand" do %>
+    <%= link_to "https://www.nspierson.com", class: "navbar-brand" do %>
       <%= image_tag "NS-PIERSON.png" %>
     <% end %>
 
@@ -51,19 +51,21 @@ N'hésitez pas à me contacter pour plus d'informations !</p>
     <div class="skills">
       <h3>MES COMPÉTENCES</h3>
       <p style="margin-top: 20px;">Je possède des compétences dans différents languages/frameworks/CMS</p>
-      <%= image_tag("html_shield.png") %>
-      <%= image_tag("css_shield.png") %>
-      <%= image_tag("js_shield.png") %>
-      <%= image_tag("ror_shield.png") %>
-      <%= image_tag("ruby_shield.png") %>
-      <%= image_tag("php.png") %>
-      <%= image_tag("postgresql.png") %>
+      <div class="skills-display">
+        <%= image_tag("html_shield.png") %>
+        <%= image_tag("css_shield.png") %>
+        <%= image_tag("js_shield.png") %>
+        <%= image_tag("ror_shield.png") %>
+        <%= image_tag("ruby_shield.png") %>
+        <%= image_tag("php.png") %>
+        <%= image_tag("postgresql.png") %>
+      </div>
     </div>
   </div>
     <h1 class="text-center" id="work" style="margin: 40px 0; font-size: 36px;"><strong>RÉALISATIONS</strong></h1>
   <div class="work">
     <div class="cards">
-      <%= link_to "http://www.uninstant-pour-soi.fr", target: "_blank" do %>
+      <%= link_to "https://www.uninstant-pour-soi.fr", target: "_blank" do %>
         <div class="work-card" style="background-image: url('assets/img site mathilde.png')">
           <div class="work-card-linear" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4))">
             <div class="text d-flex justify-content-center align-items-center">
@@ -118,10 +120,10 @@ N'hésitez pas à me contacter pour plus d'informations !</p>
       <i class="fas fa-phone" style="border: 1px black solid; color: black; font-size: 16px; padding: 10px;margin-right: 5px;"></i> 07.61.09.80.32
       <br>
       <br>
-      <i class="fab fa-github" style="border: 1px black solid; color: black; font-size: 16px; padding: 10px;margin-right: 5px;"></i> Github
+      <i class="fab fa-github" style="border: 1px black solid; color: black; font-size: 16px; padding: 10px;margin-right: 5px;"></i> <%= link_to "Github", "https://github.com/nspierson", target: "_blank" %>
       <br>
       <br>
-      <i class="fab fa-linkedin-in" style="border: 1px black solid; color: black; font-size: 16px; padding: 10px;margin-right: 5px;"></i> Linkedin
+      <i class="fab fa-linkedin-in" style="border: 1px black solid; color: black; font-size: 16px; padding: 10px;margin-right: 5px;"></i> <%= link_to "Linkedin", "https://www.linkedin.com/in/nspierson/", target: "_blank" %>
     </div>
     <div class="contact-form">
       <div class="form-inputs" style="width: 100%;">
@@ -138,7 +140,7 @@ N'hésitez pas à me contacter pour plus d'informations !</p>
 </div>
 <div class="footer">
   <div class="footer-text d-flex justify-content-center">
-    <a href="http://www.nspierson.com" target="_blank" style="color: white; text-decoration: none;">© 2020 - nspierson.com</a>
+    <a href="https://www.nspierson.com" target="_blank" style="color: white; text-decoration: none;">© 2020 - nspierson.com</a>
   </div>
 </div>
 
