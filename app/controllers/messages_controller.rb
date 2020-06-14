@@ -11,7 +11,7 @@ class MessagesController < ApplicationController
       subject = @message.subject
       content = @message.content
       ContactMailer.message_received(name, email, subject, content).deliver_now
-      redirect_to new_message_path
+      redirect_to root_path
     else
       render 'new'
     end
