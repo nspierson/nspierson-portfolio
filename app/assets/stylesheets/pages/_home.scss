@@ -206,7 +206,7 @@ html, body {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) and (orientation: landscape) {
   .about {
     display: block;
 
@@ -234,6 +234,11 @@ html, body {
     h3 {
       margin-top: 20px;
     }
+  }
+
+  .work {
+    display: flex;
+    justify-content: center;
   }
 
   .services {
@@ -281,6 +286,87 @@ html, body {
     }
   }
 
+}
+
+@media (max-width: 750px) {
+  .about {
+    display: block;
+
+    h3 {
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+
+  .description {
+    width: 100%;
+    font-size: 14px;
+
+    p {
+      width: 85%;
+      margin: 0 auto;
+    }
+  }
+
+  .skills {
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+
+    h3 {
+      margin-top: 20px;
+    }
+  }
+
+  .work {
+    display: flex;
+    justify-content: center;
+  }
+
+  .services {
+    display: block;
+  }
+
+  .one-service {
+    width: 100%;
+    h6 {
+      font-size: 20px;
+      color: white;
+    }
+    p {
+      color: white;
+      font-size: 14px;
+    }
+  }
+
+  .contact {
+    display: block;
+  }
+
+  .info {
+    width: 100%;
+    border-right: none;
+    border-bottom: solid 1px grey;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .footer {
+    height: 12vh;
+    width: 100vw;
+    background-color: black;
+    margin-top: 40px;
+  }
+
+  .footer-text {
+    a {
+      margin-top: 20px;
+    }
+  }
 }
 
 @media (max-width: 420px) {
