@@ -1,0 +1,5 @@
+meta_product_name: "nspierson.com"
+meta_title: "nspierson - Développeur web"
+meta_description: "Création de site web"
+meta_image: "nspierson_logo.png" # should exist in `app/assets/images/`
+twitter_account: "@product_twitter_account"   # required for Twitter Cards
