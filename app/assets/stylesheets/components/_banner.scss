@@ -76,7 +76,6 @@
     height: 100vh;
     background-attachment: unset;
     background-size:cover;
-    background-repeat: no-repeat;
     background-position: 1025px 60px;
 
     h1 {
@@ -148,7 +147,7 @@
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 420px) {
   .banner {
     width: 100vw;
     height: 100vh;
