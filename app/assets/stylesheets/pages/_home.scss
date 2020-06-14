@@ -212,6 +212,7 @@ html, body {
 
     h3 {
       font-size: 24px;
+      text-align: center;
     }
   }
 
@@ -221,12 +222,18 @@ html, body {
 
     p {
       width: 85%;
+      margin: 0 auto;
     }
   }
 
   .skills {
     width: 100%;
     font-size: 14px;
+    text-align: center;
+
+    h3 {
+      margin-top: 20px;
+    }
   }
 
   .services {
@@ -274,5 +281,12 @@ html, body {
     }
   }
 
+}
+
+@media (max-width: 420px) {
+  .work {
+    display: flex;
+    justify-content: center;
+  }
 }
 

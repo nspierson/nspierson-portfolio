@@ -176,6 +176,44 @@
 
     .mid-banner {
       width: 100vw;
+      height: 100vh;
+      margin: 80px 0;
+      background-size: cover;
+      background-attachment: unset;
+      padding-top: 30px;
+      background-position: 670px 0px;
+    }
+}
+
+@media (max-width: 380px) {
+  .banner {
+    width: 100vw;
+    height: 100vh;
+    background-attachment: unset;
+    background-size:cover;
+    background-position: 685px 60px;
+
+    h1 {
+      position: absolute;
+      left: 20px;
+      bottom: 14vh;
+      color: white;
+      font-size: 14px;
+      width: 100%;
+    }
+
+      p {
+        position: absolute;
+        left: 20px;
+        bottom: 7vh;
+        color: white;
+        font-size: 10px;
+        width: 50%;
+      }
+    }
+
+    .mid-banner {
+      width: 100vw;
       height: 125vh;
       margin: 80px 0;
       background-size: cover;
