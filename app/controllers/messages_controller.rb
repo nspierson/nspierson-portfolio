@@ -6,12 +6,12 @@ class MessagesController < ApplicationController
   def create
     @message = Message.new(message_params)
     if @message.save
+      flash[:notice] = 'Merci, Votre message à bien été envoyé.'
       name = @message.name
       email = @message.email
       subject = @message.subject
       content = @message.content
       ContactMailer.message_received(name, email, subject, content).deliver_now
-      redirect_to root_path
     else
       render 'new'
     end

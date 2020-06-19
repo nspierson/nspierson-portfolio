@@ -6,7 +6,7 @@ html, body {
     overflow-x:hidden;
 }
 
-// SECTION A PROPOS
+// SECTION DESCRIPTION A PROPOS
 
 .about {
   display: flex;
@@ -26,6 +26,8 @@ html, body {
   }
 }
 
+// SECTION DESCRIPTION SKILLS
+
 .skills {
   width: 50%;
   font-size: 14px;
@@ -37,24 +39,7 @@ html, body {
   justify-content: space-between;
 }
 
-// SECTION SERVICES
-
-.services {
-  display: flex;
-  justify-content: space-around;
-}
-
-.one-service {
-  width: 30%;
-  h6 {
-    font-size: 20px;
-    color: white;
-  }
-  p {
-    color: white;
-    font-size: 14px;
-  }
-}
+// SECTION REALISATIONS
 
 .discover {
   width: 100%;
@@ -151,6 +136,27 @@ html, body {
   }
 }
 
+// SECTION SERVICES
+
+.services {
+  display: flex;
+  justify-content: space-around;
+}
+
+.one-service {
+  width: 30%;
+  h6 {
+    font-size: 20px;
+    color: white;
+  }
+  p {
+    color: white;
+    font-size: 14px;
+  }
+}
+
+// SECTION CONTACT
+
 .contact {
   display: flex;
   justify-content: space-between;
@@ -188,6 +194,8 @@ html, body {
   border-radius: .25rem;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+
+// FOOTER
 
 .footer {
   height: 10vh;

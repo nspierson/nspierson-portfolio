@@ -2,8 +2,8 @@
   justify-content: space-between;
   background: transparent;
   transition: background 1s ease-out;
-  position: fixed;
-  top: 0;
+  position: sticky;
+  // top: 0;
   z-index: 2000;
   width: 100%;
   a {
@@ -33,10 +33,15 @@
     transition: background 1s ease-out;
     position: fixed;
     top: 0;
+    left: 0;
     z-index: 2000;
     width: 100%;
     a {
       color: white !important;
     }
+  }
+
+  body {
+    width: 100%;
   }
 }
